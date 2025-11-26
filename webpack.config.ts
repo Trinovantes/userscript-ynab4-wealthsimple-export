@@ -120,7 +120,7 @@ const config: webpack.Configuration = {
                     ? '0.0.0'
                     : packageJson.version,
                 match: [
-                    'https://my.wealthsimple.com/app/activity*',
+                    'https://my.wealthsimple.com/*',
                 ],
                 grant: [
                     'GM.getValue',
