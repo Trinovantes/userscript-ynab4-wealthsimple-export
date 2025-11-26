@@ -1,0 +1,52 @@
+{
+    "ts-node": {
+        "transpileOnly": true,
+        "compilerOptions": {
+            "module": "commonjs",
+            "moduleResolution": "node10",
+        },
+    },
+    "compilerOptions": {
+        "strict": true,
+        "sourceMap": true,
+        "declaration": false,
+        "declarationMap": false,
+
+        "target": "esnext",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+
+        "allowImportingTsExtensions": true,
+        "allowSyntheticDefaultImports": true,
+        "erasableSyntaxOnly": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "useUnknownInCatchVariables": true,
+        "verbatimModuleSyntax": true,
+
+        "outDir": "dist",
+        "baseUrl": ".",
+    },
+    "exclude": [
+        "**/dist*",
+        "**/raw",
+        "**/*.html",
+        "node_modules",
+        "libs",
+    ],
+    "include": [
+        "**/*",
+        ".vitepress/**/*",
+        "eslint.config.*js",
+    ],
+}

@@ -1,0 +1,51 @@
+{
+    "type": "module",
+    "name": "userscript-ynab4-wealthsimple-export",
+    "productName": "YNAB4 Wealthsimple Export",
+    "description": "Exports Wealthsimple transactions to CSV for YNBA4",
+    "author": "Stephen",
+    "license": "AGPL-3.0-only",
+    "version": "0.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Trinovantes/userscript-ynab4-wealthsimple-export"
+    },
+    "private": true,
+    "scripts": {
+        "dev": "NODE_ENV=development webpack serve",
+        "build": "webpack",
+        "lint": "vue-tsc && eslint"
+    },
+    "devDependencies": {
+        "@eslint/compat": "^2.0.0",
+        "@eslint/js": "^9.39.1",
+        "@stylistic/eslint-plugin": "^5.6.1",
+        "@types/greasemonkey": "^4.0.7",
+        "@types/node": "^24.10.1",
+        "@types/webpack-env": "^1.18.8",
+        "@vue/compiler-sfc": "^3.5.25",
+        "css-loader": "^7.1.2",
+        "date-fns": "^4.1.0",
+        "esbuild-loader": "^4.4.0",
+        "eslint": "^9.39.1",
+        "eslint-plugin-n": "^17.23.1",
+        "eslint-plugin-vue": "^10.6.1",
+        "globals": "^16.5.0",
+        "html-webpack-plugin": "^5.6.5",
+        "pinia": "^3.0.4",
+        "sass": "^1.94.2",
+        "sass-loader": "^16.0.6",
+        "style-loader": "^4.0.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.48.0",
+        "vue": "^3.5.25",
+        "vue-eslint-parser": "^10.2.0",
+        "vue-loader": "^17.4.2",
+        "vue-tsc": "^3.1.5",
+        "webpack": "^5.103.0",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.2",
+        "webpack-userscript": "^3.2.3"
+    }
+}
