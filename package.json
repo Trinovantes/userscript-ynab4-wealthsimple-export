@@ -5,7 +5,7 @@
     "description": "Exports Wealthsimple transactions to CSV for YNBA4",
     "author": "Stephen",
     "license": "AGPL-3.0-only",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/Trinovantes/userscript-ynab4-wealthsimple-export"
